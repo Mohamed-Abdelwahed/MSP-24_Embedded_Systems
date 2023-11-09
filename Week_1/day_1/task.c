@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include <math.h>
 #include "task.h"
 
 float average_3_numbers(float num1 , float num2 , float num3){
@@ -59,5 +60,34 @@ void personal_data(void){
     printf("=>==> Personal Id is : %s\n" , department);
     printf("=>==> Personal Id is : %s\n" , fav_hobby);
 
+}
+/**================================================*/
+void reversed_arr(void){
+
+
+       char my_string[3];
+       printf("Enter characters to reverse : ");
+       gets(my_string);
+
+
+        printf("\nThe Reverse  ");
+        for (int i = 0; i < 3; i++)
+        {
+            
+                printf("%c" , my_string[i]);
+            
+            
+        }
+        printf(" is ==> ");
+        
+       for (int i = 2; i >= 0 ; i--)
+       {
+        
+            printf("%c" , my_string[i]);
+        
+        
+       }
+       
+       
 }
 /**================================================*/

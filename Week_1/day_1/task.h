@@ -5,3 +5,4 @@ void display_datatypes(int integer_num, float  float_num  , char char_num , long
 void swap_num(int *num1 , int *num2);
 void quotient_and_remainder(int num1 , int num2);
 void personal_data(void);
+void reversed_arr(void);
